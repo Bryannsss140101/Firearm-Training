@@ -80,9 +80,9 @@ ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
 ProjectSettings/SceneTemplateSettings.json
 
 # Do not ignore .meta files for assets that should be tracked
-!Assets/Scripts/*.meta
-!Assets/Prefabs/*.meta
-!Assets/Materials/*.meta
+!Assets/Scripts/**/*.meta
+!Assets/Prefabs/**/*.meta
+!Assets/Materials/**/*.meta
 
 # General rule to ignore all .meta files (removed for necessary exceptions above)
 *.meta
